@@ -146,6 +146,7 @@ call Highlight("StorageClass", s:light_blue, s:none, s:italic)
 call Highlight("Structure", s:light_blue, s:none, s:none)
 
 call Highlight("Function", s:light_green, s:none, s:none)
+call Highlight("Parameter", s:orange, s:none, s:none)
 
 call Highlight("Constant", s:purple, s:none, s:none)
 call Highlight("Directory", s:purple, s:none, s:none)
@@ -334,6 +335,7 @@ call Highlight("jsxAttrib", s:white, s:none, s:italic)
 call Highlight("typescriptNull", s:purple, s:none, s:none)
 call Highlight("typescriptBraces", s:yellow, s:none, s:none)
 call Highlight("typescriptFuncKeyword", s:light_green, s:none, s:italic)
+call Highlight("typescriptReservedSuper", s:orange, s:none, s:none)
 
 " GraphQL
 call Highlight("graphqlStructure", s:magenta, s:none, s:none)
